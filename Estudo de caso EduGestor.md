@@ -42,3 +42,107 @@ NF010. O sistema deve garantir que apenas usuários autenticados e com permissã
 NF011. O sistema deve registrar logs de todas as ações de avaliação para auditoria.
 NF012. O sistema deve prevenir ações simultâneas conflitantes sobre a mesma candidatura.
 NF013. Em caso de falha durante a operação, o sistema deve registrar o erro e permitir nova tentativa sem duplicar a ação.
+
+Atores
+Usuário:Qualquer ator que ainda não se logou no sistema.
+
+Candidato: Aluno que se inscreve para uma vaga de monitoria ou estágio.
+
+Executor: Aluno aprovado, que está desempenhando as atividades da vaga.
+
+Relator: Aluno que está finalizando sua participação e submetendo o relatório final.
+
+Professor:Avaliar candidaturas; acompanhar a execução das atividades dos alunos; avaliar relatórios finais; fornecer feedbacks e aprovações.
+Regras de Negócio
+RN001. Apenas usuários não logados podem tentar realizar o cadastro.
+RN002. Apenas usuários não logados podem tentar realizar o login. 
+RN003. Apenas usuários já cadastrados podem se logar. 
+RN004. O campo de e-mail deve ser único por usuário. 
+RN005. A senha deve conter no mínimo 8 caracteres e incluir letras e números.
+RN006. Apenas o próprio usuário pode editar seu perfil.
+RN007. Cada aluno pode se candidatar a no máximo uma vaga por tipo (monitoria ou estágio) simultaneamente. 
+RN008. A justificativa deve conter no mínimo 200 caracteres.
+RN009. O sistema deve verificar se o aluno está em situação acadêmica regular.
+RN010. Cada candidatura deve ser avaliada por pelo menos um membro da comissão. 
+RN011. Não é possível avaliar uma candidatura duas vezes pelo mesmo avaliador.
+RN012. Uma vez que a avaliação é finalizada, não pode ser alterada (exceto por administradores). 
+RN013. Uma candidatura só pode ser avaliada uma vez, a menos que o sistema permita reavaliações com justificativa.
+RN014. A aprovação de uma candidatura pode implicar em bloqueio de outras para a mesma vaga (dependendo do processo seletivo).
+RN015. A rejeição deve ser registrada com motivo, caso exigido pela política da empresa.
+
+
+Mensagens de Erro
+ME101. Os dados digitados já foram utilizados no cadastro do sistema.
+ME102. Erro ao acessar informação, confira conexão com a internet.
+ME103. Erro ao logar no sistema,usuário não cadastrado.  
+ME104. Campos incorretos. 
+ME105. Erro,e-mail já está em uso. 
+ME106. Erro de comunicação com o banco, tente novamente mais tarde. 
+ME107. Campos inválidos ou não preenchidos. 
+ME108. A decisão já foi tomada. 
+ME109. Erro ao atualizar status.
+
+
+
+Diagrama dos Casos de Uso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Especificações dos Casos de Uso
+
