@@ -22,3 +22,6 @@ Este é um sistema de gestão acadêmica que visa facilitar o acompanhamento de 
 - Everton Barbosa
 - José Alves
 - Sócrates Farias
+
+## Observações
+    Os diagramas de sequência estão upados para serem baixados para visualização no Astah UML, a visualização das imagens se dará no docuento de diagramas.
