@@ -24,4 +24,4 @@ Este é um sistema de gestão acadêmica que visa facilitar o acompanhamento de 
 - Sócrates Farias
 
 ## Observações
-    Os diagramas de sequência estão upados para serem baixados para visualização no Astah UML, a visualização das imagens se dará no docuento de diagramas.
+- Os diagramas de sequência estão upados para serem baixados para visualização no Astah UML, a visualização das imagens se dará no documento de diagramas.
