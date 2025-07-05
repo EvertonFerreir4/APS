@@ -4,6 +4,7 @@ Este é um sistema de gestão acadêmica que visa facilitar o acompanhamento de 
 
 ## Documentação
 - Estudo de caso: `Estudo de caso EduGestor.pdf`
+- Diagramas: 'EduGestor Diagramas.pdf'
 
 ## Funcionalidades
 - Cadastro de usuários
