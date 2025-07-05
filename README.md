@@ -1,4 +1,5 @@
 # Projeto EduGestor
+Projeto acadêmico de documentação para a displina de Análise e Projeto de Software.
 
 Este é um sistema de gestão acadêmica que visa facilitar o acompanhamento de atividades, candidaturas e relatórios no ambiente universitário.
 
